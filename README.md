@@ -63,7 +63,7 @@ Mendukung digitalisasi lingkungan akademik ITERA dengan menghadirkan fasilitas p
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                   PRESENTATION LAYER                     │
+│                   PRESENTATION LAYER                    │
 │  ┌──────────────────────────────────────────────────┐   │
 │  │  Progressive Web App (PWA)                       │   │
 │  │  - React.js Frontend                             │   │
@@ -73,7 +73,7 @@ Mendukung digitalisasi lingkungan akademik ITERA dengan menghadirkan fasilitas p
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────┴────────────────────────────────┐
-│                   APPLICATION LAYER                      │
+│                   APPLICATION LAYER                     │
 │  ┌──────────────────────────────────────────────────┐   │
 │  │  Cloud Run (Backend API)                         │   │
 │  │  - Node.js + Express.js                          │   │
@@ -84,18 +84,18 @@ Mendukung digitalisasi lingkungan akademik ITERA dengan menghadirkan fasilitas p
 └────────────────────────┬────────────────────────────────┘
                          │
 ┌────────────────────────┴────────────────────────────────┐
-│                     DATA LAYER                           │
+│                     DATA LAYER                          │
 │  ┌─────────────────────┐  ┌─────────────────────────┐   │
 │  │  Cloud SQL (MySQL)  │  │  Redis (Memorystore)    │   │
 │  │  - Main Database    │  │  - Caching Layer        │   │
 │  │  - Data Persistence │  │  - Performance Boost    │   │
 │  └─────────────────────┘  └─────────────────────────┘   │
 │  ┌─────────────────────────────────────────────────┐    │
-│  │  Cloud Storage                                   │    │
-│  │  - Book Cover Images                             │    │
-│  │  - Static Assets                                 │    │
+│  │  Cloud Storage                                  │    │
+│  │  - Book Cover Images                            │    │
+│  │  - Static Assets                                │    │
 │  └─────────────────────────────────────────────────┘    │
-└──────────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────────┘
 ```
 
 ---
